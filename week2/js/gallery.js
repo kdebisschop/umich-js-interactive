@@ -11,7 +11,6 @@ function upDate(previewPic) {
     var element = document.getElementById('image');
     element.style.backgroundImage = 'url(' + previewPic.src + ')';
     element.innerHTML = previewPic.alt;
-
 }
 
 /**
